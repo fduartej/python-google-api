@@ -1,0 +1,24 @@
+GET https://customsearch.googleapis.com/customsearch/v1?key=AIzaSyA9jH-MDHFeolmOt8qFiuCLApW3o_KFqw4 HTTP/1.1
+Accept: application/json
+
+cx=97b63507f96534ae5
+cx=017576662512468239146:omuauf_lfve
+
+https://www.google.com/search?rlz=1C1SQJL_esPE853PE853&sxsrf=ALeKk02P5G-rZ7yIiCZjf-7CNB9kD_8vRA%3A1603774583705&ei=d6iXX_63Kt3D5OUPiZqLkA8&q=dise%C3%B1o+gr%C3%A1fico+-%E2%80%9Cofertas+de+empleo%E2%80%9D&oq=dise%C3%B1o+gr%C3%A1fico+-%E2%80%9Cofertas+de+empleo%E2%80%9D&gs_lcp=CgZwc3ktYWIQA1DlE1jlE2CBIGgAcAF4AIABT4gBT5IBATGYAQCgAQKgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwi-z_Hy_dPsAhXdIbkGHQnNAvIQ4dUDCA0&uact=5
+
+
+GET https://www.googleapis.com/customsearch/v1?key=AIzaSyA9jH-MDHFeolmOt8qFiuCLApW3o_KFqw4&cx=97b63507f96534ae5&q=dise%C3%B1o+gr%C3%A1fico+-%E2%80%9Cofertas+de+empleo%E2%80%9D
+Accept: application/json
+
+POST http://127.0.0.1:5000/compliance-duediligence HTTP/1.1
+Content-Type: application/json
+
+{
+    "apellidoPaterno": "ORTIZ",
+    "apellidoMaterno": "ESPINOSA",
+    "nombres": "MARISOL",
+    "id":"40382034"
+}
+
+GET  http://127.0.0.1:5000/ HTTP/1.1
+Accept: application/json
